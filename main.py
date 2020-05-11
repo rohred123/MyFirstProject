@@ -7,7 +7,7 @@ print ("Rohan is very nice" )
 print ("10+10 =" + "15")
 print ("10+10 =" + str(10) + str(10) ) 
 print ("10+10 = " + str(10 + 10))
-print ("I teach Python" + " using repl.it")
+print ("I learn Python" + " using repl.it")
 print ("45*45 = "+ str (45*45))
 print (8242874+92840329)
 print ("12391+923409 = " + str(12391+923409))
@@ -21,3 +21,12 @@ hi
 
 
 new line ''')
+print(234234+9242)
+print(23-234234)
+print( '''Hello World 
+hi
+
+hi
+hi
+
+what is this''')
