@@ -64,4 +64,23 @@ hi
 
 new line''') 
 
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+x = y = z = "Orange"
+print(x)
+print(y)
+print(z)
+
+x = "awesome"
+print("Python is " + x)
+x="okay"
+print( "diya is " + x)
+print("hello world")
+print("123+123")
+cupcakes_made=520
+cupcakes_spoilt=12
+cost_of_each_cupcake=25
+print((cupcakes_made - cupcakes_spoilt)* cost_of_each_cupcake)
+
 
