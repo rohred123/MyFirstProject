@@ -98,3 +98,27 @@ age=1
 display_text="%s is %s years old" 
 print(display_text % (name,age))
 print("After five years, %s will be %s years old"% (name,age+5))
+name = input('Enter your name : ')
+print ('Your name is ' + name)
+first_name= input('Enter Your First Name: ')
+last_name= input('Enter Your Last Name: ')
+print('Your first name is, ' + first_name + ' and your last name is ' + last_name)
+Rohan= input("Please enter a very good word in this, preferably a word you would call your very best friend:")
+print('Rohan is ' + Rohan + '.')
+
+var1 = 89
+print ( type(var1))
+
+var2 ='rohan'
+print ( type(var2))
+Rohan_bulb=False
+print (type(Rohan_bulb))
+x="7"
+y="4.4"
+print( int(x) + float(y))
+print(x+y)
+a = input("Enter a value for a: ")
+b = input("Enter a value for b: ")
+a=int(a)
+b=int(b)
+print(f"The sum of {a} and {b} is " + str (a+b) + ".") 
