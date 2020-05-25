@@ -1,16 +1,13 @@
-# != IS NOT EQUAL
-#x=5
-#x+=1
-#x/=2
-#print(x+123)
-
-y=input("Enter Value: ")
-x=int(y)
-if ((x%2==1)):  
- print ("The value is odd")
-if ((x%2==0)):
-  print("The value is even")
-print("End of program")
+x=input("Enter a value: ")
+y=input("Enter another value: ")
+x=int(x)
+y=int(y)
+if (x>y):
+  print("The positive difference of the values is equal to" + str(x-y) + ".")
+elif (y>x):
+  print("The positive difference of the value is equal to " + str (y-x) + ".")
+else:
+  print("The values are equal. ")
 
 
 
