@@ -1,13 +1,16 @@
-x=input("Enter a value: ")
-y=input("Enter another value: ")
+x=input("Enter your age: ")
 x=int(x)
-y=int(y)
-if (x>y):
-  print("The positive difference of the values is equal to" + str(x-y) + ".")
-elif (y>x):
-  print("The positive difference of the value is equal to " + str (y-x) + ".")
-else:
-  print("The values are equal. ")
+if(x <=0 ):
+  print ("You are not born yet.")
+elif x<=3 and x>0:
+  print("You are a toddler.")
+elif x>3 and x<=12:
+  print("You are a child.")
+elif x>12 and x<18:
+  print("You are a teenager.")
+elif x>=18:
+  print("You are an adult.")
+
 
 
 
