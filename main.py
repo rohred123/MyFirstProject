@@ -1,15 +1,13 @@
-x=input("Enter your age: ")
-x=int(x)
-if(x <=0 ):
-  print ("You are not born yet.")
-elif x<=3 and x>0:
-  print("You are a toddler.")
-elif x>3 and x<=12:
-  print("You are a child.")
-elif x>12 and x<18:
-  print("You are a teenager.")
-elif x>=18:
-  print("You are an adult.")
+print("This is a kg to lb converter")
+x= input("Please enter your weight in either kgs or lbs and then click enter to proceed: ")
+y= input("Enter the units you used in the first question. Please put in the form kgs or lbs. Then click enter: ")
+x= int(x);
+if y=="kgs":
+  print("Weight in pounds is  " + str(x*2.205))
+elif y== 'lbs':
+  print("Weight in kg is " + str(x/2.205))
+else:
+  print ("You can't follow directions.")
 
 
 
