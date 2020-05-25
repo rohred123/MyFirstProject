@@ -1,23 +1,16 @@
-input_string = input('Enter a number: ');
-#print (input_string);
+# != IS NOT EQUAL
+#x=5
+#x+=1
+#x/=2
+#print(x+123)
 
-input_string = str(input_string)
-if(input_string.isdigit()):
-  #print ('input is digit')
-  in_int = int(input_string);
-  if(in_int%2 == 0):
-    print('Output is '+ str(in_int+3))
-  else:
-    print('Output is ' + str(in_int*4))
-else:
-  print ('input is not digit. Try again')
-
-print(round(5.5))  
-
-
-
-
-
+y=input("Enter Value: ")
+x=int(y)
+if ((x%2==1)):  
+ print ("The value is odd")
+if ((x%2==0)):
+  print("The value is even")
+print("End of program")
 
 
 
